@@ -33,8 +33,8 @@ This is mostly for our own use right now and might not make a ton of sense just 
 * [x] A CRDT-backed buffer implementation with the ability to edit text
 * [x] Bindings to N-API enabling a buffer's text to be retrieved as a JS string and edits to be performed.
 * [x] Refactor N-API bindings to use marker types in N-API values.
+* [x] Covalent: Async promise resolution
 * [ ] Covalent: Error handling
-* [ ] Covalent: Async promise resolution
 * [ ] Implement `BroadcastLatest`, a single-producer/multi-consumer broadcast channel that implements the `futures::Stream` trait and returns the most recently assigned value when polled. This will be used to propagate buffer and editor changes to observers.
 * [ ] Implement a read-only editor view in Electron using canvas. How fast can we get it on screen? How fast can we scroll it?
 * [ ] Implement syntax highlighting with tree-sitter and a simple custom theming system. How fast can we load and scroll now?
